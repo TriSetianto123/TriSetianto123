@@ -1,0 +1,124 @@
+
+body{
+    padding :0;
+    margin: 0;
+}
+
+.card1-profile{
+width: 100%;
+height: 100vh;
+}
+
+.text{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 300px;
+    margin-right: 70px;
+    height: 300px; 
+}
+.img{
+    width: 250px;
+    height: 300px;
+    border-radius:5%;
+    margin: 5px;
+}
+.img1{
+    gap:2px;
+    margin-bottom: 9px;
+}
+
+.react,.html,.js,.java,.bootstrap{
+justify-content: center;
+align-items: center;
+display: flex;
+}
+.card-profil{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+.card-text{
+    width: 700px;
+}
+.from-grup{
+    margin-left: 150px;
+    width: 900px;
+    height: auto;
+}
+.other-content{
+    width: 100%;
+   
+    height: 30vh;
+}
+.list1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+                        /* Mediaa Queries*/
+
+@media screen and ( max-width: 768px) {
+html{
+    width: 100%;
+    height: 100%;
+}
+.card-profil{
+    flex-direction: column;
+}
+.card-text{
+    text-align: justify;
+    font-size:15px;
+    width: 500px;
+}
+.text2{
+    text-align: center;
+}
+.card-text1{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.card-lists{
+    margin-top: 500px;
+    justify-content: center;
+}
+.project{
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.from-grup{
+    margin-left: 50px;
+    width: 500px;
+    
+}
+}
+
+@media screen and (max-width: 425px) {
+    .card-text {
+      width: 100%; /* Adjusted width */
+      font-size: 15px;
+      height: auto; /* Adjusted height */
+      margin-right: 0; /* Adjusted margin */
+    }
+    .card-text1 {
+      width: 100%; /* Adjusted width */
+      margin-left: 0; /* Adjusted margin */
+    }
+    .card-lists {
+      width: 100%;
+      height: 100%; /* Adjusted width */
+      height: auto; /* Adjusted height */
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .card-profil {
+      margin-left: 0; /* Adjusted margin */
+    }
+  }
